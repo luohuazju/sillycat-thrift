@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sillycat</groupId>
-	<artifactId>sillycat-thrift-java</artifactId>
+	<artifactId>sillycat-thrift-javaapi</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>sillycat-thrift-java</name>
+	<name>sillycat-thrift-javaapi</name>
 	<properties>
 	</properties>
 	<dependencies>
