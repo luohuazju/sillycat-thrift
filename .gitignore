@@ -1,3 +1,7 @@
+sillycat-thrift-java/sillycat-thrift-javaapi/.classpath
+sillycat-thrift-java/sillycat-thrift-javaapi/.project
+sillycat-thrift-java/sillycat-thrift-javaapi/.settings
+sillycat-thrift-java/sillycat-thrift-javaapi/target
 # Compiled class file
 *.class
 
