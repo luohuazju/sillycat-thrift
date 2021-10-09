@@ -1,3 +1,14 @@
+sillycat-thrift-java/sillycat-thrift-javaserver/target
+sillycat-thrift-java/sillycat-thrift-javaserver/.factorypath
+sillycat-thrift-java/sillycat-thrift-javaserver/.classpath
+sillycat-thrift-java/sillycat-thrift-javaserver/.project
+sillycat-thrift-java/sillycat-thrift-javaclient/.project
+sillycat-thrift-java/sillycat-thrift-javaclient/.factorypath
+sillycat-thrift-java/sillycat-thrift-javaclient/.settings
+sillycat-thrift-java/sillycat-thrift-javaclient/.classpath
+sillycat-thrift-java/sillycat-thrift-javaclient/target
+sillycat-thrift-java/sillycat-thrift-javaserver/.classpath
+sillycat-thrift-java/sillycat-thrift-javaserver/.settings
 sillycat-thrift-java/sillycat-thrift-javaapi/.classpath
 sillycat-thrift-java/sillycat-thrift-javaapi/.project
 sillycat-thrift-java/sillycat-thrift-javaapi/.settings

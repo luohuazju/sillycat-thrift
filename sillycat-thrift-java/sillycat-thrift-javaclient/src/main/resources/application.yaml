@@ -1,0 +1,17 @@
+info:
+ app:
+  name: Springboot MicroService API
+  java:
+   version: 1.0.0
+  type: Microservice API
+management:
+ endpoints:
+  web:
+   exposure:
+    include: health,info
+server:
+ address: 0.0.0.0 
+ port: 9528  
+thrift:
+ host: localhost
+ port: 6666
