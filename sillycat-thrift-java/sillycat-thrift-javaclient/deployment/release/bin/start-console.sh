@@ -5,4 +5,4 @@ java -Djava.net.preferIPv4Stack=true \
 	 -XX:HeapDumpPath="/tmp/dump_oom.hprof" \
 	 -Dspring.config.location=file:./conf/application.yaml \
 	 -Dlogging.config=file:./conf/log4j2.xml \
-	 -jar ./lib/netsuiteconnector-*.jar
+	 -jar ./lib/sillycat-thrift-javaclient-*.jar
