@@ -8,8 +8,6 @@ from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
 from thrift.server import TServer
 
-import socket
-
 
 class HelloServiceHandler:
 
@@ -20,10 +18,10 @@ class HelloServiceHandler:
 
 handler = HelloServiceHandler()
 processor = HelloService.Processor(handler)
-transport = TSocket.TServerSocket("localhost", 7777)
+transport = TSocket.TServerSocket("127.0.0.1", 6666)
 tfactory = TTransport.TBufferedTransportFactory()
 pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 print("starting python server...")
-print("localhost:7777")
+print("127.0.0.1:6666")
 server.serve()
